@@ -1,0 +1,10 @@
+.galeria{
+    display: flex;/*coloca as itens lado a lado*/
+    gap: 15px;/*cria um espaço entre as imagens*/
+}
+
+.galeria img {
+    max-width: 100%;/*deixe a imagem responsivel*/
+    height: auto;
+    width: 300px;/*defina uma largura fixa se preferir*/
+}
